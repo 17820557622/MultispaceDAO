@@ -1,0 +1,15 @@
+{
+  "name": "multispacedao-project",
+  "version": "1.0.0",
+  "description": "My new MultispaceDao project",
+  "scripts": {
+    "start": "msd start",
+    "build": "build-ecs",
+    "watch": "build-ecs --watch",
+    "deploy:now": "msd export && now export",
+    "ecs:install": "npm install --save-dev @multispacedao/multispacedao-ecs@latest"
+  },
+  "devDependencies": {
+    "@multispacedao/multispacedao-ecs": "latest"
+  }
+}
